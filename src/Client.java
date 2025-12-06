@@ -11,7 +11,7 @@ public class Client{
         PrintWriter pw= new PrintWriter(s.getOutputStream(),true);
         BufferedReader sr= new BufferedReader(new InputStreamReader(s.getInputStream()));
 
-        System.out.println("enter code");
+        System.out.println("enter your code");
         String code= br.readLine();
 
         pw.println(code);
